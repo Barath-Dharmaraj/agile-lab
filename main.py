@@ -17,4 +17,4 @@ mul(a,b)
 div(a,b)
 pow(a,b)
 
-#SUMMA
+print("ALOO")
