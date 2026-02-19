@@ -1,20 +1,8 @@
-a=10
-b=5
+import sys
 def add(x,y):
-    print("Sum:",a+b)
-def sub(x,y):
-    print("Diff:",a-b)
-def mul(x,y):
-    print("Mul:",a*b)
-def div(x,y):
-    print("Div:",a/b)
-def pow(x,y):
-    print("Power:",a^b)
-#NEW COMMENT
-add(a,b)
-sub(a,b)
-mul(a,b)
-div(a,b)
-pow(a,b)
+    return x+y
 
-print("ALOO")
+num1=int(sys.argv[1])
+nums2=int(sys.argv[2])
+res=add(num1,num2)
+print("Result:",res)
